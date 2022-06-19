@@ -102,7 +102,7 @@ newDiv10 = document.createElement("div");
 newDiv10.setAttribute("data-aircraft", 4);
 newDiv10.setAttribute("data-livery", 17);
 
-newDiv10.innerHTML = 'Transavia';
+newDiv10.innerHTML = 'transavia';
 
 //737 China Eastern
 newDiv11 = document.createElement("div");
@@ -118,7 +118,7 @@ newDiv12 = document.createElement("div");
 newDiv12.setAttribute("data-aircraft", 4);
 newDiv12.setAttribute("data-livery", 19);
 
-newDiv12.innerHTML = 'Ethiopian';
+newDiv12.innerHTML = 'Jet2';
 
 if (document.getElementsByClassName("geofs-aircraft-list")[0].children[5].childElementCount == 7){
   document.getElementsByClassName("geofs-aircraft-list")[0].children[5].appendChild(newDiv);
@@ -201,7 +201,7 @@ geofs.api.Model.prototype.changeTexture("https://i.ibb.co/tcJqKd1/po-1.png", 3, 
   }
 
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 19){
-geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_01.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/RvdWNmW/exssss.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
     
     //end
@@ -267,7 +267,7 @@ geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmode
   }
 
 if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 19){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_01.jpg", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/RvdWNmW/exssss.jpg", 3);
   }
     
 //end
