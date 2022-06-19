@@ -47,7 +47,7 @@ newDiv3 = document.createElement("div");
 newDiv3.setAttribute("data-aircraft", 4);
 newDiv3.setAttribute("data-livery", 10);
 
-newDiv3.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/8437210984781.png">Bare Metal';
+newDiv3.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/8437210984781.png">Lauda';
 
 //A380 House
 newDiv4 = document.createElement("div");
@@ -214,7 +214,7 @@ geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.pr
       
     if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId)
  == 10){
-geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/28xnQDx/Lauda737.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
 }
         if (parseInt(geofs.aircraft.instance.id) == 10 && parseInt(geofs.aircraft.instance.liveryId)
  == 11){
@@ -250,7 +250,7 @@ geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmode
   }
       
     if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 10){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0.png", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/28xnQDx/Lauda737.jpg", 3);
     }
 
 //start
