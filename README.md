@@ -1,6 +1,6 @@
 # Liverychanger-modified
 
-Paste code into chrome console
+Paste code into console
 
 you wil find new liveries in  geofs!
 
