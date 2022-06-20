@@ -193,7 +193,7 @@ geofs.api.Model.prototype.changeTexture("https://i.ibb.co/QcsDXDp/TUI.jpg", 3, g
   }
 
           if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 17){
-geofs.api.Model.prototype.changeTexture("https://i.ibb.co/yWhZ9Qj/BZZ7377.jpg 3", geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/yWhZ9Qj/BZZ7377.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
 
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 18){
