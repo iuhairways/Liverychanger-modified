@@ -102,7 +102,7 @@ newDiv10 = document.createElement("div");
 newDiv10.setAttribute("data-aircraft", 4);
 newDiv10.setAttribute("data-livery", 17);
 
-newDiv10.innerHTML = 'transavia';
+newDiv10.innerHTML = 'Buzz';
 
 //737 China Eastern
 newDiv11 = document.createElement("div");
@@ -193,7 +193,7 @@ geofs.api.Model.prototype.changeTexture("https://i.ibb.co/QcsDXDp/TUI.jpg", 3, g
   }
 
           if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 17){
-geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/geofs_transavia_737-700.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/yWhZ9Qj/BZZ7377.jpg 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
 
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 18){
@@ -259,7 +259,7 @@ geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmode
   }
 
 if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 17){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/geofs_transavia_737-700.png", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/yWhZ9Qj/BZZ7377.jpg", 3);
   }
 
 if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 18){
