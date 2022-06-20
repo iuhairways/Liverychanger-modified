@@ -201,7 +201,7 @@ geofs.api.Model.prototype.changeTexture("https://i.ibb.co/tcJqKd1/po-1.png", 3, 
   }
 
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 19){
-geofs.api.Model.prototype.changeTexture("https://i.ibb.co/0GXGMhL/EXSSSSSSS.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP737.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
     
     //end
@@ -267,7 +267,7 @@ geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmode
   }
 
 if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 19){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/0GXGMhL/EXSSSSSSS.jpg", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP737.jpg", 3);
   }
     
 //end
