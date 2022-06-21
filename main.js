@@ -320,7 +320,7 @@ if (e.lastLivery != e.currentLivery){
   })
 }
 }
-if (geofs.version == 3.3){
+if (geofs.version == 3.31){
   function updateMultiplayer(){
   arr1 = [];
   convertUsers();
