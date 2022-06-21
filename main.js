@@ -237,7 +237,7 @@ geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.pr
 }
 }
 }
-if (geofs.version == 3){
+if (geofs.version == 3.3){
   function updateLivery(){
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 7){
 geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0__2_.jpg", 3);
