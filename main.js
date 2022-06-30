@@ -209,7 +209,7 @@ geofs.api.Model.prototype.changeTexture("https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP73
 geofs.api.Model.prototype.changeTexture("https://i.ibb.co/YdzWX0j/sassysax.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
       }
   if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 9){
-geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0__6_.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/jy8kh7Z/j2h737.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
       
     if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId)
