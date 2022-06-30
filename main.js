@@ -38,7 +38,7 @@ newDiv2 = document.createElement("div");
 newDiv2.setAttribute("data-aircraft", 4);
 newDiv2.setAttribute("data-livery", 9);
 
-newDiv2.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/6473892164984.png">West Atlantic';
+newDiv2.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/6473892164984.png">Jet2 Holidays';
 
 
 //737 bare
