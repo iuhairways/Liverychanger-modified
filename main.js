@@ -23,6 +23,17 @@ newDiv.innerHTML = '<img src="https://138772948-227015667470610340.preview.editm
 
 
 
+//737 tranz
+newDiv1 = document.createElement("div");
+
+newDiv1.setAttribute("data-aircraft", 4);
+newDiv1.setAttribute("data-livery", 20);
+
+newDiv1.innerHTML = 'transavia';
+
+
+
+
 //737 delta livery
 newDiv1 = document.createElement("div");
 
@@ -208,6 +219,10 @@ geofs.api.Model.prototype.changeTexture("https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP73
     if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 8){
 geofs.api.Model.prototype.changeTexture("https://i.ibb.co/YdzWX0j/sassysax.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
       }
+    if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 20){
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/Dts72Wj/tra737.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+      }
+    
   if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 9){
 geofs.api.Model.prototype.changeTexture("https://i.ibb.co/jy8kh7Z/j2h737.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
@@ -242,8 +257,8 @@ if (geofs.version == 3.3){
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 7){
 geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/ZxSG72Y/ryanair.jpg", 3);
   }
-    if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 8){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/YdzWX0j/sassysax.jpg", 3);
+    if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 20){
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/Dts72Wj/tra737.png", 3);
       }
   if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 9){
 geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0__6_.png", 3);
