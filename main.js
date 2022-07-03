@@ -22,18 +22,6 @@ newDiv.setAttribute("data-livery", 7);
 newDiv.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/screenshot_2022-01-10_8.15.06_am__1_.png">Ryanair (by Github user 589)';
 
 
-
-//737 tranz
-newDiv1 = document.createElement("div");
-
-newDiv1.setAttribute("data-aircraft", 4);
-newDiv1.setAttribute("data-livery", 20);
-
-newDiv1.innerHTML = 'transavia';
-
-
-
-
 //737 delta livery
 newDiv1 = document.createElement("div");
 
@@ -129,7 +117,7 @@ newDiv12 = document.createElement("div");
 newDiv12.setAttribute("data-aircraft", 4);
 newDiv12.setAttribute("data-livery", 19);
 
-newDiv12.innerHTML = 'Jet2';
+newDiv12.innerHTML = 'Transavia';
 
 if (document.getElementsByClassName("geofs-aircraft-list")[0].children[5].childElementCount == 7){
   document.getElementsByClassName("geofs-aircraft-list")[0].children[5].appendChild(newDiv);
@@ -212,15 +200,12 @@ geofs.api.Model.prototype.changeTexture("https://i.ibb.co/tcJqKd1/po-1.png", 3, 
   }
 
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 19){
-geofs.api.Model.prototype.changeTexture("https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP737.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/Dts72Wj/tra737.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
     
     //end
     if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 8){
 geofs.api.Model.prototype.changeTexture("https://i.ibb.co/YdzWX0j/sassysax.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
-      }
-    if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 20){
-geofs.api.Model.prototype.changeTexture("https://i.ibb.co/Dts72Wj/tra737.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
       }
     
   if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 9){
@@ -252,16 +237,16 @@ geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.pr
 }
 }
 }
-if (geofs.version == 3.3){
+if (geofs.version == 3.31){
   function updateLivery(){
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 7){
 geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/ZxSG72Y/ryanair.jpg", 3);
   }
-    if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 20){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/Dts72Wj/tra737.png", 3);
-      }
+    if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 8){
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/YdzWX0j/sassysax.jpg", 3);
+      }https://i.ibb.co/jy8kh7Z/j2h737.png
   if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 9){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0__6_.png", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/jy8kh7Z/j2h737.png", 3);
   }
       
     if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 10){
@@ -282,7 +267,7 @@ geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmode
   }
 
 if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 19){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/xjb8sXj/3-EXSi-UVMAP737.jpg", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/Dts72Wj/tra737.png", 3);
   }
     
 //end
@@ -343,20 +328,20 @@ if (geofs.version == 3.31){
 if (e.lastLivery != e.currentLivery){
 
     if (e.currentLivery == 7){
-geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0__2_low.png", 0);
+geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/ZxSG72Y/ryanair.jpg", 0);
     }
 
         if (e.currentLivery == 8){
-geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_4_low.png", 0);
+geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/YdzWX0j/sassysax.jpg", 0);
     }
         if (e.currentLivery == 9){
-geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0__5__low.png", 0);
+geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/jy8kh7Z/j2h737.png", 0);
     }
         if (e.currentLivery == 10){
-geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0low.png", 0);
+geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, "https://i.ibb.co/28xnQDx/Lauda737.jpg", 0);
         }
         if (e.currentLivery == 11){
-geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a380house__1_.png", 0);
+geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/xg2Q4CR/BA-a380-1.jpg", 0);
     }
 }
     e.lastLivery = e.currentLivery
