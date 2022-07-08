@@ -196,7 +196,7 @@ geofs.api.Model.prototype.changeTexture("https://i.ibb.co/yWhZ9Qj/BZZ7377.jpg", 
   }
 
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 18){
-geofs.api.Model.prototype.changeTexture("https://i.ibb.co/tcJqKd1/po-1.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/MBdGnLB/po-2.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
 
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 19){
@@ -263,7 +263,7 @@ geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmode
   }
 
 if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 18){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/tcJqKd1/po-1.png", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/MBdGnLB/po-2.jpg", 3);
   }
 
 if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 19){
