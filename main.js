@@ -19,7 +19,7 @@ newDiv = document.createElement("div");
 newDiv.setAttribute("data-aircraft", 4);
 newDiv.setAttribute("data-livery", 7);
 
-newDiv.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/screenshot_2022-01-10_8.15.06_am__1_.png"TUI new';
+newDiv.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/screenshot_2022-01-10_8.15.06_am__1_.png">TUI new';
 
 
 //737 delta livery
