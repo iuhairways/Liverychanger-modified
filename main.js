@@ -19,7 +19,7 @@ newDiv = document.createElement("div");
 newDiv.setAttribute("data-aircraft", 4);
 newDiv.setAttribute("data-livery", 7);
 
-newDiv.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/screenshot_2022-01-10_8.15.06_am__1_.png">Ryanair (by Github user 589)';
+newDiv.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/screenshot_2022-01-10_8.15.06_am__1_.png"TUI new';
 
 
 //737 delta livery
@@ -184,7 +184,7 @@ geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.pr
 geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/livercomposit.jpg", 1, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 7){
-geofs.api.Model.prototype.changeTexture("https://i.ibb.co/ZxSG72Y/ryanair.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/kXZ66Z3/tui737new.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
 //start
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 16){
@@ -240,7 +240,7 @@ geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.pr
 if (geofs.version == 3.31){
   function updateLivery(){
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 7){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/ZxSG72Y/ryanair.jpg", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/kXZ66Z3/tui737new.jpg", 3);
   }
     if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 8){
 geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/YdzWX0j/sassysax.jpg", 3);
@@ -328,7 +328,7 @@ if (geofs.version == 3.31){
 if (e.lastLivery != e.currentLivery){
 
     if (e.currentLivery == 7){
-geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/ZxSG72Y/ryanair.jpg", 0);
+geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/kXZ66Z3/tui737new.jpg", 0);
     }
 
         if (e.currentLivery == 8){
