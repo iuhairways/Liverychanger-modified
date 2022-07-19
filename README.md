@@ -1,6 +1,8 @@
 # Liverychanger-modified
+custom liverychanger. ariakim taiyo wrote the code but i changed the liveries and made it work in 3.3 beta.
 
-Paste code into console and you wil find new liveries in  geofs!
-
-All credit apart from TUI, west atlantic, transavia, Jet2, Lufthansa A350, SaS, Lauda, Buzz and british airways goes to Ariakim Taiyo, to use lufthansa, click the qatar A350. Contribute to the livery changer by Getting the livery map (map.jpg) and painting your livery on it.
-works in Beta 3.3 
+**How to contribute:**<br>
+> Download the plain texture map at map.jpg,<br>
+> Use an image editor (like photoshop) to paint your livery onto the aircraft,<br>
+> Export the texture file in the original resolution (4096px X 4096 px),<br>
+> Follow the instructions on submitting liveries
