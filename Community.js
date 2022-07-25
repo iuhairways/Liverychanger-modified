@@ -54,7 +54,7 @@ newDiv4 = document.createElement("div");
 newDiv4.setAttribute("data-aircraft", 10);
 newDiv4.setAttribute("data-livery", 11);
 
-newDiv4.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/screenshot_2022-01-12_6.04.22_pm__1_.png">British Airways';
+newDiv4.innerHTML = '<img src="https://i.ibb.co/8Kf4G3F/imageofa380luft.jpg">Lufthansa';
 //A350K Qatar
 newDiv5 = document.createElement("div");
 
@@ -274,7 +274,7 @@ geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmode
     
             if (parseInt(geofs.aircraft.instance.id) == 10 && parseInt(geofs.aircraft.instance.liveryId)
  == 11){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a380house.png", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/Q6cp1BX/dlhh380.jpg", 3);
  }
 if (parseInt(geofs.aircraft.instance.id) == 2973 && parseInt(geofs.aircraft.instance.liveryId)
  == 12){
@@ -313,7 +313,7 @@ if (e.lastLivery != e.currentLivery){
      geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0low.png", 0, multiplayer.visibleUsers[e.id].model); 
         }
         if (e.currentLivery == 11){
-     geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/a380house__1_.png", 0, multiplayer.visibleUsers[e.id].model); 
+     geofs.api.Model.prototype.changeTexture("https://i.ibb.co/Q6cp1BX/dlhh380.jpg", 0, multiplayer.visibleUsers[e.id].model); 
     }    
 }
    e.lastLivery = e.currentLivery
@@ -341,7 +341,7 @@ geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https
 geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, "https://i.ibb.co/28xnQDx/Lauda737.jpg", 0);
         }
         if (e.currentLivery == 11){
-geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/xg2Q4CR/BA-a380-1.jpg", 0);
+geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/Q6cp1BX/dlhh380.jpg", 0);
     }
 }
     e.lastLivery = e.currentLivery
