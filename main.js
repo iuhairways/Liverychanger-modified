@@ -54,6 +54,7 @@ newDiv4 = document.createElement("div");
 newDiv4.setAttribute("data-aircraft", 10);
 newDiv4.setAttribute("data-livery", 11);
 
+newDiv4.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/screenshot_2022-01-12_6.04.22_pm__1_.png">British Airways';
 
 //737  New
 newDiv9 = document.createElement("div");
