@@ -54,38 +54,6 @@ newDiv4 = document.createElement("div");
 newDiv4.setAttribute("data-aircraft", 10);
 newDiv4.setAttribute("data-livery", 11);
 
-newDiv4.innerHTML = '<img src="https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/screenshot_2022-01-12_6.04.22_pm__1_.png">British Airways';
-//A350K Qatar
-newDiv5 = document.createElement("div");
-
-newDiv5.setAttribute("data-aircraft", 2973);
-newDiv5.setAttribute("data-livery", 12);
-
-newDiv5.innerHTML = 'Qatar';
-
-//A321Neo United
-newDiv6 = document.createElement("div");
-
-newDiv6.setAttribute("data-aircraft", a321id);
-newDiv6.setAttribute("data-livery", 13);
-
-newDiv6.innerHTML = 'United';
-
-//748F Lufthansa
-newDiv7 = document.createElement("div");
-
-newDiv7.setAttribute("data-aircraft", b747id);
-newDiv7.setAttribute("data-livery", 14);
-
-newDiv7.innerHTML = 'Lufthansa';
-
-//A10 Bare
-newDiv8 = document.createElement("div");
-
-newDiv8.setAttribute("data-aircraft", 2310);
-newDiv8.setAttribute("data-livery", 15);
-
-newDiv8.innerHTML = 'Solid Gray';
 
 //737  New
 newDiv9 = document.createElement("div");
