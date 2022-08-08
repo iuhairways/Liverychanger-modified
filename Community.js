@@ -87,7 +87,7 @@ newDiv12 = document.createElement("div");
 newDiv12.setAttribute("data-aircraft", 4);
 newDiv12.setAttribute("data-livery", 19);
 
-newDiv12.innerHTML = 'Transavia';
+newDiv12.innerHTML = 'easyJet';
 
 if (document.getElementsByClassName("geofs-aircraft-list")[0].children[5].childElementCount == 7){
   document.getElementsByClassName("geofs-aircraft-list")[0].children[5].appendChild(newDiv);
@@ -170,7 +170,7 @@ geofs.api.Model.prototype.changeTexture("https://i.ibb.co/MBdGnLB/po-2.jpg", 3, 
   }
 
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 19){
-geofs.api.Model.prototype.changeTexture("https://i.ibb.co/Dts72Wj/tra737.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/zV7DhTp/lji.png", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
   }
     
     //end
@@ -237,7 +237,7 @@ geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmode
   }
 
 if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 19){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/Dts72Wj/tra737.png", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/zV7DhTp/lji.png", 3);
   }
     
 //end
