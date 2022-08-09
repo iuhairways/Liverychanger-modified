@@ -120,20 +120,7 @@ document.getElementsByClassName("geofs-aircraft-list")[0].children[11].appendChi
   }
 
 
-document.querySelectorAll('[data-aircraft]').forEach(function(e){
-  if (e.innerText.includes("A321"))
-    e.appendChild(newDiv6)
-})
-document.querySelectorAll('[data-aircraft]').forEach(function(e){
-  if (e.innerText.includes("A350-1000"))
-    e.appendChild(newDiv5)
-})
-document.querySelectorAll('[data-aircraft]').forEach(function(e){
-  if (e.innerText.includes("747"))
-    e.appendChild(newDiv7)
-})
 
-document.getElementsByClassName("geofs-list-collapsible-item geofs-notstudent-role")[0].children[0].children[14].appendChild(newDiv8)
 // master livery function
 
 if (geofs.version == 2.9){
