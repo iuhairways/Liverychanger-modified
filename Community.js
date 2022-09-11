@@ -231,7 +231,7 @@ geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmode
     
             if (parseInt(geofs.aircraft.instance.id) == 10 && parseInt(geofs.aircraft.instance.liveryId)
  == 11){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/Q6cp1BX/dlhh380.jpg", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/6DXstZF/lufthansa.jpg", 3);
  }
 if (parseInt(geofs.aircraft.instance.id) == 2973 && parseInt(geofs.aircraft.instance.liveryId)
  == 12){
@@ -270,7 +270,7 @@ if (e.lastLivery != e.currentLivery){
      geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.preview.editmysite.com/uploads/1/3/8/7/138772948/texture_0low.png", 0, multiplayer.visibleUsers[e.id].model); 
         }
         if (e.currentLivery == 11){
-     geofs.api.Model.prototype.changeTexture("https://i.ibb.co/Q6cp1BX/dlhh380.jpg", 0, multiplayer.visibleUsers[e.id].model); 
+     geofs.api.Model.prototype.changeTexture("https://i.ibb.co/6DXstZF/lufthansa.jpg", 0, multiplayer.visibleUsers[e.id].model); 
     }    
 }
    e.lastLivery = e.currentLivery
@@ -298,7 +298,7 @@ geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https
 geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, "https://i.ibb.co/28xnQDx/Lauda737.jpg", 0);
         }
         if (e.currentLivery == 11){
-geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/Q6cp1BX/dlhh380.jpg", 0);
+geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/6DXstZF/lufthansa.jpg", 0);
     }
 }
     e.lastLivery = e.currentLivery
