@@ -167,7 +167,7 @@ geofs.api.Model.prototype.changeTexture("https://i.ibb.co/jy8kh7Z/j2h737.png", 3
       
     if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId)
  == 10){
-geofs.api.Model.prototype.changeTexture("https://i.ibb.co/tp8c4Kj/fdbtesst.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
+geofs.api.Model.prototype.changeTexture("https://i.ibb.co/Dw7RD0Q/imagedgh.jpg", 3, geofs.aircraft.instance.definition.parts[0]["3dmodel"]);
 }
         if (parseInt(geofs.aircraft.instance.id) == 10 && parseInt(geofs.aircraft.instance.liveryId)
  == 11){
@@ -203,7 +203,7 @@ geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmode
   }
       
     if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 10){
-geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/tp8c4Kj/fdbtesst.jpg", 3);
+geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/Dw7RD0Q/imagedgh.jpg", 3);
     }
 
 //start
@@ -291,7 +291,7 @@ geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https
 geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/jy8kh7Z/j2h737.png", 0);
     }
         if (e.currentLivery == 10){
-geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, "https://i.ibb.co/tp8c4Kj/fdbtesst.jpg", 0);
+geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model, "https://i.ibb.co/Dw7RD0Q/imagedgh.jpg", 0);
         }
         if (e.currentLivery == 11){
 geofs.api.changeModelTexture(multiplayer.visibleUsers[e.id].model._model, "https://i.ibb.co/xg2Q4CR/BA-a380-1.jpg", 0);
