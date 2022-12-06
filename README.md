@@ -1,5 +1,5 @@
 # Liverychanger-modified
-custom liverychanger. ariakim taiyo wrote the code but i changed the liveries and made it work in 3.3 beta.
+custom liverychanger. ariakim taiyo wrote the code but i changed the liveries and made it work in 3.35 new version.
 
 **How to contribute:**<br>
 > Download the plain texture map at map.jpg,<br>
