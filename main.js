@@ -150,7 +150,7 @@ geofs.api.Model.prototype.changeTexture("https://138772948-227015667470610340.pr
 }
 }
 }
-if (geofs.version == 3.31){
+if (geofs.version == 3.35){
   function updateLivery(){
       if (parseInt(geofs.aircraft.instance.id) == 4 && parseInt(geofs.aircraft.instance.liveryId) == 7){
 geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, "https://i.ibb.co/kXZ66Z3/tui737new.jpg", 3);
@@ -226,7 +226,7 @@ if (e.lastLivery != e.currentLivery){
   })
 }
 }
-if (geofs.version == 3.31){
+if (geofs.version == 3.35){
   function updateMultiplayer(){
   arr1 = [];
   convertUsers();
