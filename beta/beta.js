@@ -8,7 +8,7 @@ if (geofs.version == 2.9) { //should work with URLs and livery IDs now, legacy g
 livObj.aircraft.forEach(function(e){
   var dropdown = document.createElement('li');
   dropdown.innerHTML = e.name;
-  document.getElementsByClassName("geofs-aircraft-list")[0].appendChild(dropdown);
+  document.getElementsByClassName("geofs-aircraft-list")[3].appendChild(dropdown);
   if (e.livery.includes("https://")) {
   dropdown.setAttribute("onclick", 'geofs.api.Model.prototype.changeTexture(' + `"` + e.livery + `"` + ', 0, geofs.aircraft.instance.definition.parts[0]["3dmodel"])');
   } else {
