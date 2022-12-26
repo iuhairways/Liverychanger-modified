@@ -49,9 +49,8 @@ updateMultiplayer();
 }, 5000)
 document.querySelectorAll('[data-aircraft]').forEach(function(e){
    var elemName = e.outerText;
-    if (elemName.includes("Boeing 737-700") || elemName.includes("Airbus A380") 
-{
-       e.innerHTML = e.innerHTML + " liverychanger-modified compatible"
+    if (elemName.includes("Airbus a320neo (Iberia) (by Spice_9)") || elemName.includes("Boeing 737 Max 8 (TUI) (by Spice_9)") || elemName.includes("Boeing 787-10 Dreamliner (Etihad) (by Spice_9)") || elemName.includes("Airbus A319 (Finnair)  (by GT-VRA)")) {
+       e.innerHTML = e.innerHTML + " [Multiliveries Frame]"
     }
 });
 console.log("Loaded!");
@@ -61,7 +60,7 @@ await fetch("https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/d
  .then(data => contributors = data)
 let message = ""
 setTimeout(function(){
-  console.log("Code by Spice9, AriakimTaiyo and iuhairways.
+  console.log("Code by Spice9 and AriakimTaiyo, livery contributions by:");
 contributors.forEach(function(e){
   if (message === "") {
     message = message + e
