@@ -10,7 +10,7 @@ livObj.aircraft.forEach(function(e){
   dropdown.innerHTML = e.name;
   document.getElementsByClassName("geofs-aircraft-list")[3].appendChild(dropdown);
   if (e.livery.includes("https://")) {
-  dropdown.setAttribute("onclick", 'geofs.api.Model.prototype.changeTexture(' + `"` + e.livery + `"` + ', 0, geofs.aircraft.instance.definition.parts[0]["3dmodel"])');
+  dropdown.setAttribute("onclick", 'geofs.api.Model.prototype.changeTexture(' + `"` + e.livery + `"` + ', 3, geofs.aircraft.instance.definition.parts[3]["3dmodel"])');
   } else {
       dropdown.setAttribute("onclick", 'geofs.aircraft.instance.loadLivery(' + e.livery + ')');
   }
@@ -28,9 +28,9 @@ livObj.aircraft.forEach(function(e){
 	livObj.aircraft.forEach(function(e){
   var dropdown = document.createElement('li');
   dropdown.innerHTML = e.name;
-  document.getElementsByClassName("geofs-aircraft-list")[0].appendChild(dropdown);
+  document.getElementsByClassName("geofs-aircraft-list")[3].appendChild(dropdown);
   if (e.livery.includes("https://")) {
-  dropdown.setAttribute("onclick", 'geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[0]["3dmodel"]._model, ' + `"` + e.livery + `"` + ', 0)');
+  dropdown.setAttribute("onclick", 'geofs.api.changeModelTexture(geofs.aircraft.instance.definition.parts[3]["3dmodel"]._model, ' + `"` + e.livery + `"` + ', 3)');
   } else {
       dropdown.setAttribute("onclick", 'geofs.aircraft.instance.loadLivery(' + e.livery + ')');
   }
