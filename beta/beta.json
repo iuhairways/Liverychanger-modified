@@ -2,7 +2,17 @@
   {
     "name": "Boeing 737 700 (west atlanTic)",
   "livery": "https://i.ibb.co/MBdGnLB/po-2.jpg",
-  "mptx": "https://i.ibb.co/MBdGnLB/po-2.jpg",
-    }
+  "mptx": "https://i.ibb.co/MBdGnLB/po-2.jpg"
+  },
+  {
+  "name": "Boeing 737 700 (tui)",
+  "livery": "https://i.ibb.co/QcsDXDp/TUI.jpg",
+  "mptx": "https://i.ibb.co/QcsDXDp/TUI.jpg"
+  },
+  {
+  "name": "Boeing 737 700 (transavia)",
+  "livery": "https://i.ibb.co/Dts72Wj/tra737.png",
+  "mptx": "https://i.ibb.co/Dts72Wj/tra737.png"
+  }
 	
   ]}
