@@ -1,6 +1,6 @@
 console.log("Loading...");
 let livObj;
- await fetch("")
+ await fetch("https://raw.githubusercontent.com/iuhairways/Liverychanger-modified/main/beta/beta.json")
  .then(res => res.json())
  .then(data => livObj = data) 
 if (geofs.version == 2.9) { //should work with URLs and livery IDs now, legacy geofs compat.
