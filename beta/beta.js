@@ -49,7 +49,8 @@ updateMultiplayer();
 }, 5000)
 document.querySelectorAll('[data-aircraft]').forEach(function(e){
    var elemName = e.outerText;
-    if (elemName.includes("Boeing 737-700") || elemName.includes("Airbus A380") || elemName.includes()") {
+    if (elemName.includes("Boeing 737-700") || elemName.includes("Airbus A380") 
+{
        e.innerHTML = e.innerHTML + " liverychanger-modified compatible"
     }
 });
@@ -60,7 +61,7 @@ await fetch("https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/d
  .then(data => contributors = data)
 let message = ""
 setTimeout(function(){
-  console.log("Code by Spice9 and AriakimTaiyo, livery contributions by:");
+  console.log("Code by Spice9, AriakimTaiyo and iuhairways.
 contributors.forEach(function(e){
   if (message === "") {
     message = message + e
