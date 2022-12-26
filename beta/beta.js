@@ -1,3 +1,4 @@
+//ok dw i took it from the ML code
 console.log("Loading...");
 let livObj;
  await fetch("https://raw.githubusercontent.com/iuhairways/Liverychanger-modified/main/beta/beta.json")
@@ -50,7 +51,7 @@ updateMultiplayer();
 document.querySelectorAll('[data-aircraft]').forEach(function(e){
    var elemName = e.outerText;
     if (elemName.includes("Airbus A380") || elemName.includes("Boeing 737-700")) {
-       e.innerHTML = e.innerHTML + " [Multiliveries Frame]"
+       e.innerHTML = e.innerHTML + " liverychanger-modified compatible"
     }
 });
 console.log("Loaded!");
